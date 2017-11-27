@@ -13,7 +13,7 @@
 var faker = require('faker');
 
 function FakeDataStore (size) {
-  this.size = size || 2000;
+  this.size = size || 20000;
   this._cache = [];
 
   this.createFakeRowObjectData = function (index) {
